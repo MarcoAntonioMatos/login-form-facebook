@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(12, 12, 189);
+    padding: 8px 0;
+}
+
+.logo h2{
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.form-login .form-element{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.form element p{
+    color: #fff;
+    font-size: 14px;
+}
+
+.form-element input[type=email],
+.form-element input[type=password]{
+    margin-top:4px;
+    border: 0;
+    height: 22px;
+    padding-left: 5px;
+}
+
+.form-element input[type=submit]{
+    cursor: pointer;
+    background-color: #202ab1;
+    color: #fff;
+    padding: 3px 5px;
+}
+
+.form-element input[type=submit]:hover{
+    background-color: #fff;
+    color: #202ab1;
+}
+
+section.main{
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(white,#8d909e);
+    padding: 40px 0;
+}
+
+.img-people{
+    width: 50%;
+}
+
+.img-people img{
+    width: 70%;
+    max-width: 100%;
+}
+
+.abrir-conta h2{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.abrir-conta h3{
+    font-size: 21px;
+    color: #525050;
+    margin-top: 20px;
+    font-weight: normal;
+}
+
+form .criar-conta{
+    display: flex;
+    margin-top: 10px;
+    padding: 0 5px;
+}
+
+.w50{
+    padding: 0 5px;
+}
+
+
+.criar-conta .w50 input{
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.submit input[type=submit]{
+    position: relative;
+    left: 35px;
+    height: 40px;
+    background-image: linear-gradient(blue,darkblue);
+    cursor: pointer;
+    color: white;
+    border: 0;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    max-width: 200px;
+    font-size: 19px;
+}
+
+.submit input[type=submit]:hover{
+    color: black;
+    background:gray;
+}
